@@ -1,5 +1,4 @@
-# ITP-GitHub-intro
+# GITHUB ACTIONS + DOCKER
 
-// Line 3
 Hello World!
 
