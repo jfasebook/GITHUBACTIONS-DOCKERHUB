@@ -21,7 +21,7 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag jorlo/githubactions:$(date +%s)
+      run: docker build . --file Dockerfile --tag jorlo/githubactions:latest
       
     - name: Docker Push
-      run: docker push jorlo/githubactions:$(date +%s)
+      run: docker push jorlo/githubactions:latest
